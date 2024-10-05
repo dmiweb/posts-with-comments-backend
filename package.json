@@ -1,0 +1,23 @@
+{
+  "name": "polling-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever index.js",
+    "watch": "forever -w index.js"
+  },
+  "author": "dmiweb",
+  "license": "ISC",
+  "engines": {
+    "node": ">=16.0.0 <21.0.0"
+  },
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.15.3",
+    "koa-router": "^13.0.1"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.3"
+  }
+}
